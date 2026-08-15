@@ -650,8 +650,8 @@ main {
 }
 
 .hero-orbit-one {
-  width: 470px;
-  height: 170px;
+  width: 480px;
+  height: 180px;
 
   transform: rotate(-25deg);
 
@@ -660,8 +660,8 @@ main {
 }
 
 .hero-orbit-two {
-  width: 500px;
-  height: 190px;
+  width: 480px;
+  height: 180px;
 
   transform: rotate(55deg);
 
@@ -1653,13 +1653,13 @@ main {
   }
 
   .hero-orbit-one {
-    width: 410px;
-    height: 150px;
+    width: 420px;
+    height: 160px;
   }
 
   .hero-orbit-two {
-    width: 440px;
-    height: 170px;
+    width: 420px;
+    height: 160px;
   }
 
 
@@ -1890,13 +1890,13 @@ main {
   }
 
   .hero-orbit-one {
-    width: 330px;
-    height: 125px;
+    width: 340px;
+    height: 130px;
   }
 
   .hero-orbit-two {
-    width: 350px;
-    height: 135px;
+    width: 340px;
+    height: 130px;
   }
 
   app {
@@ -6155,13 +6155,13 @@ html {
   }
 
   .hero-orbit-one {
-    width: min(210px, 44vw) !important;
-    height: min(80px, 18vw) !important;
+    width: min(215px, 45vw) !important;
+    height: min(84px, 19vw) !important;
   }
 
   .hero-orbit-two {
-    width: min(220px, 46vw) !important;
-    height: min(88px, 20vw) !important;
+    width: min(215px, 45vw) !important;
+    height: min(84px, 19vw) !important;
   }
 
 
