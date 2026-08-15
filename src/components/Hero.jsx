@@ -82,7 +82,7 @@ function Hero() {
             animate={{ y: [0, -10, 0] }}
             transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
           >
-            <span>💻</span> Web Dev
+            <span>💻</span> Content Creator
           </motion.div>
 
           <motion.div
