@@ -691,7 +691,8 @@ main {
 /* Badge Positioning - Desktop */
 .badge-top-left {
   top: 5%;
-  left: -15px;
+  left: auto;
+  right: calc(100% - 15px);
 }
 
 .badge-top-right {
@@ -701,7 +702,8 @@ main {
 
 .badge-bottom-left {
   bottom: 15%;
-  left: -20px;
+  left: auto;
+  right: calc(100% - 20px);
 }
 
 .badge-bottom-right {
@@ -1676,7 +1678,8 @@ main {
   }
   
   .badge-top-left {
-    left: -20px;
+    left: auto;
+    right: calc(100% - 20px);
   }
   
   .badge-top-right {
@@ -1684,7 +1687,8 @@ main {
   }
   
   .badge-bottom-left {
-    left: -35px;
+    left: auto;
+    right: calc(100% - 35px);
   }
   
   .badge-bottom-right {
@@ -6169,7 +6173,8 @@ html {
   
   .badge-top-left {
     top: 5% !important;
-    left: -15px !important;
+    left: auto !important;
+    right: calc(100% - 15px) !important;
   }
   
   .badge-top-right {
@@ -6179,7 +6184,8 @@ html {
   
   .badge-bottom-left {
     bottom: 15% !important;
-    left: -15px !important;
+    left: auto !important;
+    right: calc(100% - 15px) !important;
   }
   
   .badge-bottom-right {
