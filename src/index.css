@@ -332,7 +332,7 @@ main {
 
   margin: 0 auto;
 
-  padding-top: 1px;
+  padding-top: 20px;
 
   display: flex;
 
@@ -711,7 +711,8 @@ main {
 
 .about-section {
   position: relative;
-  bottom: 350px;
+  bottom: 240px;
+
 
   width: 100%;
 
