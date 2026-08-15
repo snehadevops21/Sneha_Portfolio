@@ -61,8 +61,6 @@ function Hero() {
             ease: "easeOut",
           }}
         >
-          <div className="hero-image-ring"></div>
-
           <motion.img
             src="/me.png"
             alt="Ishnu"

@@ -332,11 +332,11 @@ main {
 
   margin: 0 auto;
 
-  padding-top: 130px;
+  padding-top: 150px;
 
   display: flex;
 
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-between;
   gap: clamp(18px, 2vw, 36px);
   overflow: visible;
@@ -690,23 +690,23 @@ main {
 
 /* Badge Positioning - Desktop */
 .badge-top-left {
-  top: 15%;
-  left: -40px;
+  top: 5%;
+  left: -15px;
 }
 
 .badge-top-right {
-  top: 25%;
-  right: -50px;
+  top: 20%;
+  right: -25px;
 }
 
 .badge-bottom-left {
-  bottom: 25%;
-  left: -50px;
+  bottom: 15%;
+  left: -20px;
 }
 
 .badge-bottom-right {
-  bottom: 15%;
-  right: -40px;
+  bottom: 10%;
+  right: -20px;
 }
 
 
@@ -729,7 +729,7 @@ main {
 
 .about-section {
   position: relative;
-  bottom: 240px;
+  bottom: 380px;
 
 
   width: 100%;
@@ -1049,7 +1049,7 @@ main {
 .work-section {
   position: relative;
 
-  bottom: 400px;
+  bottom: 540px;
 
   width: 100%;
 
@@ -2262,7 +2262,7 @@ main {
   position: relative;
 
   width: 100%;
-  bottom: 500px;
+  bottom: 640px;
 
   padding: clamp(100px, 13vw, 170px) 0;
 
@@ -2861,7 +2861,7 @@ main {
   position: relative;
 
   width: 100%;
-  bottom: 650px;
+  bottom: 790px;
 
   padding: clamp(100px, 13vw, 170px) 0;
 
@@ -3257,7 +3257,7 @@ main {
   position: relative;
 
   width: 100%;
-  bottom: 800px;
+  bottom: 940px;
 
   padding: clamp(110px, 15vw, 190px) 0 70px;
 
@@ -3700,12 +3700,12 @@ main {
 ========================================================= */
 
 .footer-section {
-  margin-bottom: -800px;
+  margin-bottom: -940px;
 }
 
 @media (max-width: 700px) {
   .footer-section {
-    margin-bottom: -800px;
+    margin-bottom: -940px;
   }
 }
 
@@ -4396,7 +4396,7 @@ main {
   min-height: calc(100svh - 80px);
 
   margin-top: 0 !important;
-  padding-top: 92px;
+  padding-top: 150px;
 
   overflow: hidden;
 }
@@ -4738,7 +4738,7 @@ body {
 }
 
 .hero {
-  padding-top: 0 !important;
+  padding-top: 140px !important;
   min-height: 100vh !important;
 }
 
@@ -5628,9 +5628,13 @@ button:focus-visible {
 /* REMOVE THE DARK / BLACK BACKGROUND EFFECT */
 
 .hero-image::before,
+.hero-visual::before {
+  box-shadow: none !important;
+}
+
 .hero-image::after,
-.hero-visual::before,
 .hero-visual::after {
+  display: none !important;
   box-shadow: none !important;
 }
 
@@ -5674,27 +5678,7 @@ button:focus-visible {
 .hero-visual:hover img {
   transform: scale(1.16);
 }
-.hero-image::after,
-.hero-visual::after {
-  content: "";
-  position: absolute;
-
-  width: 430px;
-  height: 190px;
-
-  left: 50%;
-  top: 50%;
-
-  transform: translate(-50%, -50%) rotate(-25deg);
-
-  border: 1px solid rgba(239, 55, 125, 0.18);
-  border-radius: 50%;
-
-  background: transparent;
-
-  z-index: 1;
-  pointer-events: none;
-}
+/* REMOVED ::after ORBITS */
 /* =========================================
    HERO PERSON — LARGER
 ========================================= */
