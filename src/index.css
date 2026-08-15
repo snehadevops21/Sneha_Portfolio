@@ -332,7 +332,7 @@ main {
 
   margin: 0 auto;
 
-  padding-top: 100px;
+  padding-top: 130px;
 
   display: flex;
 
@@ -6031,7 +6031,7 @@ html {
   .hero {
     width: 100% !important;
     min-height: auto !important;
-    padding: 60px 0 36px !important;
+    padding: 100px 0 36px !important;
     overflow: hidden !important;
   }
 
