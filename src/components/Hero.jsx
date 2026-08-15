@@ -78,8 +78,38 @@ function Hero() {
             }}
           />
 
-          <div className="hero-orbit hero-orbit-one"></div>
-          <div className="hero-orbit hero-orbit-two"></div>
+          {/* Floating Badges */}
+          <motion.div
+            className="hero-badge badge-top-left"
+            animate={{ y: [0, -10, 0] }}
+            transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
+          >
+            <span>💻</span> Web Dev
+          </motion.div>
+
+          <motion.div
+            className="hero-badge badge-top-right"
+            animate={{ y: [0, 10, 0] }}
+            transition={{ duration: 4.5, repeat: Infinity, ease: "easeInOut", delay: 0.5 }}
+          >
+            <span>🎬</span> Editing
+          </motion.div>
+
+          <motion.div
+            className="hero-badge badge-bottom-left"
+            animate={{ y: [0, 8, 0] }}
+            transition={{ duration: 3.8, repeat: Infinity, ease: "easeInOut", delay: 0.2 }}
+          >
+            <span>🤖</span> AI Creator
+          </motion.div>
+
+          <motion.div
+            className="hero-badge badge-bottom-right"
+            animate={{ y: [0, -8, 0] }}
+            transition={{ duration: 4.2, repeat: Infinity, ease: "easeInOut", delay: 0.7 }}
+          >
+            <span>🎨</span>Designing
+          </motion.div>
         </motion.div>
 
       </div>
