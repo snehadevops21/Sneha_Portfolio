@@ -173,7 +173,7 @@ function SelectedWork() {
               <div className="work-card-bottom">
 
                 <span className="work-view">
-                  VIEW PROJECT
+                  CLICK HERE
                 </span>
 
                 <span className="work-arrow">
