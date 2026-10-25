@@ -1,9 +1,20 @@
 import { motion } from "framer-motion";
 
 const experiences = [
-  {
+
+    {
     number: "01",
-    year: "May 2026",
+    year: "August 2026",
+    role: "Video Editor",
+    company: "De Blaze Nepal",
+    location: "Gwarko, Lalitpur",
+    description:
+      "Shot and edited high-converting promotional videos and organic social media content using CapCut Pro for paid ad campaigns and digital marketing channels.",
+  },
+
+  {
+    number: "02",
+    year: "May 2026 - July 2026",
     role: "E-Commerce Intern",
     company: "OZInfo Tech",
     location: "Kausaltar, Kathmandu",
@@ -11,8 +22,8 @@ const experiences = [
       "Worked with e-commerce product listings, branded content, social media content, AI-assisted creative workflows and digital marketing activities.",
   },
   {
-    number: "02",
-    year: "July 2025 — May 2026",
+    number: "03",
+    year: "September 2025 — May 2026",
     role: "Admission Officer",
     company: "Dynamic Universe Education",
     location: "Putalisadak, Kathmandu",
@@ -21,8 +32,8 @@ const experiences = [
   },
 
   {
-    number: "03",
-    year: "Feb 2024 — Jan 2025",
+    number: "04",
+    year: "August 2024 — July 2025",
     role: "Lab Assistant",
     company: "HPPCL",
     location: "Jadibuti, Kathmandu",
