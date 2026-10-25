@@ -12,24 +12,16 @@ const experiences = [
   },
   {
     number: "02",
-    year: "Dec 2025 — May 2026",
+    year: "July 2025 — May 2026",
     role: "Admission Officer",
     company: "Dynamic Universe Education",
     location: "Putalisadak, Kathmandu",
     description:
-      "Managed student applications, documentation, records, communication and admission processes.",
+      "Managed student applications, documentation, records, communication and admission processes and supported front desk operations, documentation and client communication.",
   },
+
   {
     number: "03",
-    year: "Jun 2025 — Oct 2025",
-    role: "Front Desk & Documentation Trainee",
-    company: "Vision & Value Educational Consultancy",
-    location: "Bagbazar, Kathmandu",
-    description:
-      "Supported front desk operations, documentation and client communication.",
-  },
-  {
-    number: "04",
     year: "Feb 2024 — Jan 2025",
     role: "Lab Assistant",
     company: "HPPCL",
