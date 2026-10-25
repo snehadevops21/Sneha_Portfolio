@@ -3956,11 +3956,12 @@ main {
 /* Headline inside bottom footer */
 .footer-bottom .footer-headline {
   margin: 0;
-  color: #eee;
-  font-size: clamp(16px, 2.5vw, 22px);
+  color: #777;
+  font-size: 11px;
   font-weight: 600;
-  font-family: inherit; /* Keeps your font design consistent */
+  font-family: inherit; /* Keeps font design consistent */
   letter-spacing: -0.02em;
+  text-transform: uppercase;
 }
 
 /* Links row inside bottom footer */

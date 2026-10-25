@@ -89,7 +89,7 @@ function Footer() {
         {/* BOTTOM */}
 
         <div className="footer-bottom">
-          <h2 className="footer-headline">Let's build something great together.</h2>
+          <h2 className="footer-headline">LET'S BUILD SOMETHING GREAT TOGETHER.</h2>
 
           <div className="footer-links">
             <a href="https://www.linkedin.com/in/sneha-pokharel-51a515412/" target="_blank" rel="noopener noreferrer">
