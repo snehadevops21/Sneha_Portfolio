@@ -38,7 +38,7 @@ function Footer() {
 
 
           <a
-            href="mailto:p.snehapnp@gmail.com"
+            href="mailto:p.snehanp@gmail.com"
             className="footer-talk"
           >
             LET'S TALK
@@ -89,23 +89,31 @@ function Footer() {
         {/* BOTTOM */}
 
         <div className="footer-bottom">
+          <h2 className="footer-headline">Let's build something great together.</h2>
+
+          <div className="footer-links">
+            <a href="https://www.linkedin.com/in/sneha-pokharel-51a515412/" target="_blank" rel="noopener noreferrer">
+              LinkedIn
+            </a>
+            <a href="mailto:p.snehanp@gmail.com">
+              Email Me
+            </a>
+
+          </div>
 
           <span>
             © {currentYear} ISHNUUU. ALL RIGHTS RESERVED.
           </span>
-
-
-          <button
-            type="button"
-            onClick={scrollToTop}
-            className="back-to-top"
-          >
-            BACK TO TOP
-            <span>↑</span>
-          </button>
-
         </div>
 
+        <button
+          type="button"
+          onClick={scrollToTop}
+          className="back-to-top"
+        >
+          BACK TO TOP
+          <span>↑</span>
+        </button>
       </div>
     </footer>
   );
